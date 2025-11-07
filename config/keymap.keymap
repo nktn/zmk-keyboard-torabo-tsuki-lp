@@ -20,21 +20,21 @@
 
         layer_0 {
             bindings = <
-&kp ESC    &kp N1     &kp N2     &kp N3    &kp N4        &kp N5                                             &kp N6           &kp N7    &kp N8     &kp N9    &kp N0         &kp BSPC
-&kp TAB    &kp Q      &kp W      &kp E     &kp R         &kp T                                              &kp Y            &kp U     &kp I      &kp O     &kp SLASH      &kp BSPC
-&kp CAPS   &kp A      &kp S      &kp D     &kp F         &kp G            &mkp LCLK       &mkp RCLK         &kp H            &kp J     &kp K      &kp L     &kp P          &kp SQT
-&kp LSHFT  &kp Z      &kp X      &kp C     &kp V         &kp B            &kp TAB         &kp ESCAPE        &kp N            &kp M     &kp COMMA  &kp DOT   &kp BACKSPACE  &kp BACKSPACE
-&kp LCTRL  &kp LCTRL  &kp TILDE  &kp SEMI  &kp LEFT_ALT  &lt 1 LC(SPACE)  &mt LGUI SPACE  &mt RSHIFT ENTER  &lt 2 RC(SPACE)  &kp BSPC  &kp RALT   &kp RGUI  &kp RCTRL      &kp RCTRL
+&kp ESC    &kp N1        &kp N2     &kp N3    &kp N4     &kp N5                                             &kp N6           &kp N7    &kp N8     &kp N9    &kp N0         &kp BSPC
+&kp TAB    &kp Q         &kp W      &kp E     &kp R      &kp T                                              &kp Y            &kp U     &kp I      &kp O     &kp SLASH      &kp BSPC
+&kp CAPS   &kp A         &kp S      &kp D     &kp F      &kp G            &mkp LCLK       &mkp RCLK         &kp H            &kp J     &kp K      &kp L     &kp P          &kp SQT
+&kp LSHFT  &kp Z         &kp X      &kp C     &kp V      &kp B            &kp TAB         &kp ESCAPE        &kp N            &kp M     &kp COMMA  &kp DOT   &kp BACKSPACE  &kp BACKSPACE
+&kp LCTRL  &kp LEFT_ALT  &kp TILDE  &kp SEMI  &kp EQUAL  &lt 1 LC(SPACE)  &mt LGUI SPACE  &mt RSHIFT ENTER  &lt 2 RC(SPACE)  &kp BSPC  &kp RALT   &kp RGUI  &kp RCTRL      &kp RCTRL
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans          &trans        &trans          &trans           &trans                                          &trans        &trans     &trans     &trans  &trans  &trans
+&trans  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4     &kp N5                                          &kp NUMBER_6  &kp N7     &kp N8     &kp N9  &kp N0  &trans
+&trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans       &trans                     &trans        &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans          &trans        &trans          &trans           &trans  &kp LS(TAB)  &kp RG(RS(NUMBER_4))       &kp PLUS      &trans     &trans     &trans  &trans  &trans
+&trans  &trans          &trans        &trans          &trans           &trans  &trans       &mt RIGHT_SHIFT RS(ENTER)  &trans        &trans     &trans     &trans  &trans  &trans
             >;
         };
 
