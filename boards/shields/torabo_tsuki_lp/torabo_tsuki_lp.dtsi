@@ -90,17 +90,7 @@
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        layers = <4>;
-    };
-    
-    trackball_scroll_listener: trackball_scroll_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-        layers = <5>;
-        xy-swap;
-        y-invert;
-        scale-multiplier = <1>;
-        scale-divisor = <8>;
+        input-processors = <&zip_temp_layer 4 2000>;
     };
 
     vbatt: vbatt {
